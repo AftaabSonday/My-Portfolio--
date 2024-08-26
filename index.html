@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.jpg" type="image/png">
+    <script src="./script.js"></script>
+
+
+    <title>Aftaab's portfolio</title>
+</head>
+
+<body class="body" id="body">
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="left">Aftaab's Portfolio <div class="hamburger" onclick="toggleMenu()">
+                    &#9776;
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a class="nav-link" href="#" onclick="toggleMenu()">Home</a></li>
+                    <li><a class="nav-link" href="#skills" onclick="toggleMenu()">Skills</a></li>
+                    <li><a class="nav-link" href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a class="nav-link" href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <!-- <li><a class="nav-link" href="#achievements" onclick="toggleMenu()">Achievements</a></li> -->
+                    <li><a class="nav-link" href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+                    <li><a class="nav-link" href="#contactme" onclick="toggleMenu()">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="text-purple">Aftaab</span>
+                <div>
+                    and I'm a passionate
+                </div>
+                <div class="animated-text">
+                    <span id="element"></span>
+                </div>
+
+                <div class="btn-link btn">
+                    <a href="https://drive.google.com/file/d/1Abs9oz4sxHs6SqYN0sXviHVfa7SHObZc/view"
+                        target="_new">
+                        <button id="btn-link">
+                            <h2>My Resume</h2>
+                        </button>
+                    </a>
+                    <a href="https://github.com/AftaabSonday" target="_new">
+                        <button id="btn-link">
+                            <h2>Visit Github</h2>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/profile.jpg" alt="">
+            </div>
+
+        </section>
+
+
+        <hr>
+
+        <section class="mainSections secondSection" id="skills">
+
+            <h1 class="text-purple">Skills</h1>
+            <div class="skills-container">
+                <div class="skills-cat">
+                    <h3 class="text-purple">Programming Languages</h3>
+                    <ul>
+                        <li>C <span class="badge advanced"> Advanced </span></li>
+                        <li>C++ <span class="badge advanced"> Advanced </span></li>
+                        <li>Java <span class="badge intermediate"> Intermediate </span></li>
+                        <li>Python <span class="badge intermediate"> Intermediate </span></li>
+                        <li>JavaScript <span class="badge intermediate"> Intermediate </span></li>
+                    </ul>
+                </div>
+                <div class="skills-cat">
+                    <h3 class="text-purple">FrontEnd & Frameworks</h3>
+                    <ul>
+                        <li>HTML <span class="badge advanced"> Advanced </span> </li>
+                        <li>CSS <span class="badge advanced"> Advanced </span> </li>
+                        <li>Bootstrap <span class="badge advanced"> Advanced </span></li>
+                        <li>ReactJS <span class="badge intermediate"> Intermediate </span></li>
+                    </ul>
+                </div>
+
+                <div class="skills-cat">
+                    <h3 class="text-purple">DataBase</h3>
+                    <ul>
+                        <li>MySQL <span class="badge intermediate"> Intermediate </span> </li>
+                        <li>PostgreSQL <span class="badge intermediate"> Intermediate </span> </li>
+                    </ul>
+                </div>
+
+                <div class="skills-cat">
+                    <h3 class="text-purple">Tools & Technologies</h3>
+                    <ul>
+                        <li>Git <span class="badge advanced"> Advanced </span> </li>
+                        <li>Postman <span class="badge intermediate"> Intermediate </span> </li>
+                        <li>Linux <span class="badge intermediate"> Intermediate </span></li>
+                        <li>Canva <span class="badge advanced"> Advanced </span></li>
+                        <li>VS Code <span class="badge advanced"> Advanced </span> </li>
+                        <li>GitHub <span class="badge advanced"> Advanced </span></li>
+                    </ul>
+                </div>
+
+                <div class="skills-cat">
+                    <h3 class="text-purple">Cloud</h3>
+                    <ul>
+                        <li>AWS <span class="badge beginner"> Beginner </span> </li>
+                    </ul>
+                </div>
+
+                <div class="skills-cat">
+                    <h3 class="text-purple">Backend</h3>
+                    <ul>
+                        <li>NodeJS <span class="badge intermediate"> Intermediate </span> </li>
+                        <li>ExpressJS <span class="badge intermediate"> Intermediate </span> </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="mainSections thirdSection" id="projects">
+            <span class="text-gray">What I have done so far</span>
+            <h1 class="text-purple">Projects</h1>
+            <div class="project-items">
+
+                
+
+                <div class="project-card">
+                    <div class="thumbnail">
+                        <img src="./images/projects/expense.png" alt="">
+                    </div>
+                    <div class="details">
+                        <h4>Expense Tracker</h4>
+                        <span class="explore">
+                            <a href="https://github.com/AftaabSonday/expense-tracker" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-brands fa-github fa-beat" style="color:#ffffff" title="Visit Github"></i>
+                            </a>
+                            <a href="https://expense-tracker-iyirkk0p3-aftaabs-projects-91ecbce6.vercel.app/" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade" style="color: #ffffff"
+                                    title="View Deployment"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="stack">HTML | CSS | JavaScript</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="thumbnail">
+                        <img src="./images/projects/Tindog.png" alt="">
+                    </div>
+                    <div class="details">
+                        <h4>news monkey</h4>
+                        <span class="explore">
+                            <a href="https://github.com/AftaabSonday/Tindog" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github fa-beat" style="color:#ffffff" title="Visit Github"></i>
+                            </a>
+                            <a href="https://aftaabsonday.github.io/Tindog/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade" style="color: #ffffff"
+                                    title="View Deployment"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="stack">HTML | CSS </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="thumbnail">
+                        <img src="./images/projects/ClinicSystem.png" alt="">
+                    </div>
+                    <div class="details">
+                        <h4>Clinic System</h4>
+                        <span class="explore">
+                            <a href="https://github.com/AftaabSonday/Clinic-System" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github fa-beat" style="color:#ffffff" title="Visit Github"></i>
+                            </a>
+                            <a href="https://clinic-system-j88ff9yx2-aftaabs-projects-91ecbce6.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade" style="color: #ffffff"
+                                    title="View Deployment"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="stack">HTML | CSS | JavaScript </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="thumbnail">
+                        <img src="./images/projects/aftaab.png" alt="">
+                    </div>
+                    <div class="details">
+                        <h4>My Portfolio</h4>
+                        <span class="explore">
+                            <a href="https://github.com/AftaabSonday/My-portfolio" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github fa-beat" style="color:#ffffff" title="Visit Github"></i>
+                            </a>
+                            <a href="https://my-portfolio-olive-zeta-88.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade" style="color: #ffffff"
+                                    title="View Deployment"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="stack">HTML | CSS | JavaScript </div>
+                </div>
+
+               
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="mainSections fourthSection" id="experience">
+            <h1 class="text-purple">Experience</h1>
+
+            <div class="container">
+                <div class="experience-card">
+                    <div class="company-image">
+                        <img src="./images/achievements/bdcc.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="position"><b>Software Developer</b></div>
+                        <div class="company-name">
+                            Bin Delamah Cont. Co., Ras Tanura, Dammam
+                        </div>
+                        <div class="tenure">
+                            March 2024 – August 2024
+                        </div>
+                        <hr>
+                        <div class="work-details">
+                            - Developed and implemented a comprehensive management software using React.js, Node.js, and SQL.<br>- The
+software is utilized across various departments, including HR, IT, Accounting, Engineering, and Cashiering.<br>-
+Collaborated with different teams to ensure seamless integration and deployment of the software.<br>- Provided
+ongoing support and updates to enhance system functionality and user experience.<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="experience-card">
+                    <div class="company-image">
+                        <img src="./images/achievements/rand.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="position"><b>Quality Analyst</b></div>
+                        <div class="company-name">
+                            Randstad India Private Limited
+                        </div>
+                        <div class="tenure">
+                            November 2022 - February 2024
+                        </div>
+                        <hr>
+                        <div class="work-details">
+                            - As a Quality Analyst I played a critical role in ensuring the <br>accuracy, reliability, and performance of road mapping
+and scene labeling for autonomous driving systems. <br>
+- Enhancing the quality of data, analysis, and labeling processes to improve the efficiency of autonomous
+vehicles.<br>
+- Developing and testing user-friendly web interfaces to support data visualization and interaction.<br>
+- Designing and implementing UI/UX elements to streamline the labeling process.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="experience-card">
+                    <div class="company-image">
+                        <img src="./images/achievements/rand.png" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="position"><b>Process Executive & UI/UX Designer</b></div>
+                        <div class="company-name">
+                            Randstad India Private Limited
+                        </div>
+                        <div class="tenure">
+                            July 2021 - November 2022
+                        </div>
+                        <hr>
+                        <div class="work-details">
+                            - As a Process Executive and UI/UX Designer at Nvidia Graphics Pvt Ltd, <br>I played a pivotal role in the development of
+autonomous driving systems<br> by serving as a Scene Labeler and Road Mapper for AI cars. <br>
+- Additionally, I contributed
+to web app development and testing efforts to enhance the project.<br>
+- Labeling road and scene data for mapping algorithms, ensuring accurate and precise scene labeling.<br>
+- Designing intuitive and visually appealing UI/UX for web applications used in the project.<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="mainSections sixthSection" id="certifications">
+            <h1 class="text-purple">Certifications</h1>
+
+            <div class="filter-section"> <span class="text-gray" style="margin-right: 5px;">Apply filter's here</span>
+                <select name="" id="certsFilter" onchange="filterCerts()">
+                    <option value="all"> Show All</option>
+                    <option value="excellence">Excellence</option>
+                    <option value="participation">Participation</option>
+                    <option value="course">Course Completion</option>
+                    <option value="internship">Internship</option>
+                </select>
+            </div>
+
+            <div class="certsGrid">
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/node.js.png"
+                            alt="Certificate of completion of Node.js (Intermediate) at HAckerrank">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Hackerrank
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 24-08-2024
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for Node.js (Intermediate). <br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/Sql.png"
+                            alt="Certificate of completion of SQL (Advanced) at HAckerrank">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Hackerrank
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 24-08-2024
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for SQL (Advanced).<br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/JavaScript.png"
+                            alt="Certificate of completion of JavaScript (Intermediate) at HAckerrank">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Hackerrank
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 24-08-2024
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for JavaScript (Intermediate).<br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/reactjs.png"
+                            alt="Certificate of completion of FrontEnd Developer (React) at HAckerrank">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Hackerrank
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 24-08-2023
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for FrontEnd Developer (React). <br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/webdevelopment.png"
+                            alt="Certificate of completion of Web Development Bootcamp at Udemy">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Udemy
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 26-04-2024
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for Web Development Bootcamp. <br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card filteredCerts course">
+                    <div class="img-container">
+                        <img src="./images/certs/Flutter.png"
+                            alt="Certificate of completion of Flutter Development Bootcamp with Dart at Udemy">
+                        <div class="badge">Course</div>
+                    </div>
+                    <div class="certDetails">
+                        <div class="org-details">
+                            <span class="org">Issued By : </span> Udemy
+                        </div>
+                        <div class="date-details">
+                            <span class="date">Issued On : </span> 28-06-2021
+                        </div>
+                        <div class="details">
+                            Clearing the skill test for Flutter Development Bootcamp with Dart. <br>
+                        </div>
+                        <div class="socials">
+                            <span class="text-purple">View more at:</span>
+                            <a href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/details/certifications/"
+                                target="_blank"><i class="fa-brands fa-linkedin-in fa-bounce"
+                                    style="color:#ffffff;margin:10px" title="View More"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <hr>
+
+    </main>
+
+    <footer>
+        <div id="contactme" class="footer-first">
+            <h2 class="text-purple">Aftaab's Developer Portfolio</h2>
+        </div>
+        <div class="footer-flex">
+            <div class="footer-second">
+                <ul>
+                    <h3><text-purple> &nbsp; &nbsp; &nbsp;Socials</text-purple></h3>
+                    <li>
+                        <img src="./images/socials/linkedin.png" alt="linkedin"><a
+                            href="https://www.linkedin.com/in/aftaab-sonday-0252aa198/" target="_new">Linked in
+                        </a>
+                    </li>
+                    <li><img src="./images/socials/github.png" alt="github"> <a href="https://github.com/AftaabSonday"
+                            target="_new">Github</a></li>
+                    <li>
+                        <img src="./images/socials/insta.png" alt="Insta">
+                        <a href="https://www.instagram.com/aftaab_sonday007/" target="_new"> Instagram</a>
+                    </li>
+                    <li><img src="./images/socials/mail.png" alt="G-mail"> <a href="mailto:aftaabsonday123@gmail.com"
+                            target="_new">Mail</a>
+
+                    </li>
+                    <li><img src="./images/socials/phone.png" alt="Phone">&nbsp;&nbsp; +91 7276877153</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <h3><text-purple> &nbsp; &nbsp;Coding Profiles</text-purple></h3>
+                   
+                    <li><img src="./images/coding-platforms/w3.png" alt="w3school"> <a
+                            href="https://pathfinder.w3schools.com/profile" target="_new"> W3 School</a></li>
+                    <li><img src="./images/coding-platforms/hackerrank.png" alt="hackerrank"> <a
+                            href="https://www.hackerrank.com/profile/aftaabsonday123" target="_new"> Hackerrank</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+        <br>
+        <p class="copy">Copyright &copy; by Sonday Aftaab</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', 'Tech Enthusiast', 'Competitive Programmer.'],
+            typeSpeed: 36,
+            loop: true
+        });
+        function toggleMenu() {
+            var navbar = document.getElementById("navbar");
+            if (navbar.className === "navbar") {
+                navbar.className += " responsive";
+            } else {
+                navbar.className = "navbar";
+            }
+            var body = document.getElementById("body");
+            if (body.className === "body") {
+                body.className += " small-body";
+            } else {
+                body.className = "body";
+            }
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://kit.fontawesome.com/eead56bd14.js" crossorigin="anonymous"></script>
+    <script>
+        VANTA.NET({
+            el: "#firstSection",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xcf2675,
+            backgroundColor: 0x018,
+            points: 8.00,
+            maxDistance: 20.00,
+            spacing: 14.00
+        })
+    </script>
+
+</body>
+
+</html>
